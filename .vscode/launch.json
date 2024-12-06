@@ -8,15 +8,15 @@
       "name": "Debug p1",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceFolder}/day4/part1/index.js",
-      "cwd": "${workspaceFolder}/day4/part1"
+      "program": "${workspaceFolder}/day5/part1/index.js",
+      "cwd": "${workspaceFolder}/day5/part1"
     },
     {
       "name": "Debug p2",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceFolder}/day4/part2/index.js",
-      "cwd": "${workspaceFolder}/day4/part2"
+      "program": "${workspaceFolder}/day5/part2/index.js",
+      "cwd": "${workspaceFolder}/day5/part2"
     }
   ]
 }
