@@ -5,7 +5,7 @@ fs.readFile(path.join(process.cwd(), "message.txt"), "utf8", (err, text) => {
     return;
   }
 
-  const input = text.split("\n");
+  const input = text.split("\r\n");
 
   let left = [];
   let right = [];
@@ -13,7 +13,7 @@ fs.readFile(path.join(process.cwd(), "message.txt"), "utf8", (err, text) => {
   input.forEach((el) => {
     let [a, b] = el.split("   ");
     left.push(a);
-    right.push(b.replace("\r", ""));
+    right.push(b);
   });
 
   let sum = 0;

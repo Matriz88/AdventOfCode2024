@@ -5,7 +5,7 @@ fs.readFile(path.join(process.cwd(), "message.txt"), "utf8", (err, text) => {
     return;
   }
 
-  const input = text.split("\n");
+  const input = text.split("\r\n");
 
   let left = [];
   let right = [];
