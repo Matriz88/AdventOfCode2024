@@ -6,7 +6,6 @@ fs.readFile(path.join(process.cwd(), "message.txt"), "utf8", (err, text) => {
   }
 
   const regex = /mul\((\d+,\d+)\)/g;
-
   const matches = [];
   let match;
 
